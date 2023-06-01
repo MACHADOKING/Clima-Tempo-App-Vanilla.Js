@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6037d030f9.js" crossorigin="anonymous"></script>
+    <title>Clima/Tempo</title>
+</head>
+<body>
+    <main class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Escreva seu local..." />
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div><!--search-box-->
+        
+        <div class="not-found">
+            <img src="img/erro404.png" alt="Erro 404, localização não encontrada." />
+            <p>Oops! Localização não encontrada.</p>
+        </div><!--not-found-->
+
+        <div class="weather-box">
+            <img src="" />
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div><!--weather-box-->
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Umidade</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Vento</p>
+                </div>
+            </div>
+        </div><!--weather-details-->
+    </main><!--container-->
+
+<script src="clima_tempo.js"></script>
+</body>
+</html>
